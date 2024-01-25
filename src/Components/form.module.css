@@ -1,0 +1,84 @@
+.formTop {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+}
+
+.heading {
+  margin-left: 20px;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.text {
+  font-size: 32px;
+  font-weight: bold;
+}
+.form {
+  padding: 20px;
+}
+.form input,
+.form textarea {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 70%;
+  border: none;
+  outline: none;
+  background-color: var(--bgSoft);
+  color: white;
+  font-size: 18px;
+}
+.weight {
+  object-fit: contain;
+}
+.bmiText {
+  font-size: 32px;
+  margin-left: 15px;
+  font-weight: bold;
+  color: rgb(118, 124, 246);
+}
+.formContents {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding-top: 100px;
+  padding-left: 100px;
+  border-radius: 10px;
+  background-color: #ffffec;
+  box-shadow: 1px 0px 25px 5px rgba(0, 0, 0, 0.15);
+}
+.form button {
+  width: 70%;
+  padding: 20px;
+  background-color: var(--btn);
+  color: var(--text);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .form {
+    flex-direction: column;
+  }
+}
+.age {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.age input {
+  width: 70%;
+  margin-right: 10px;
+}
+.age span {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  font-style: italic;
+}

@@ -1,0 +1,24 @@
+.pageContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+  gap: 10px;
+  height: 100%;
+}
+.form {
+  flex: 1;
+  height: 400px;
+}
+.image {
+  flex: 1;
+  height: 400px;
+}
+.chart2 {
+  margin-top: 250px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-left: 450px;
+  padding-bottom: 20px;
+}

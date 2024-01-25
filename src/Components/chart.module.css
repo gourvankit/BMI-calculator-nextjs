@@ -1,0 +1,9 @@
+.barGraph {
+  height: 600px;
+  padding-top: 40px;
+  background-color: #ffffec;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 25px 5px rgba(0, 0, 0, 0.15);
+  width: 50vw;
+}
