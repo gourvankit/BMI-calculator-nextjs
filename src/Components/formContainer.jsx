@@ -6,14 +6,12 @@ import { useFormState } from "react-dom";
 
 import { changeBmi } from "@/app/redux/features/bmi-slice";
 import { useDispatch } from "react-redux";
-import { addData } from "@/app/lib/action";
 const FormContainer = () => {
   const dispatch = useDispatch();
   const [bmi, setBmi] = useState(0);
   const weightRef = useRef();
   const ageRef = useRef();
   const heightRef = useRef();
-  const [state, formAction] = useFormState(addData, undefined);
   const submitHandler = (e) => {
     e.preventDefault();
     const bmi =
