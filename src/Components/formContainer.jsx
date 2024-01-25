@@ -30,7 +30,6 @@ const FormContainer = () => {
           <form
             onSubmit={submitHandler}
             className={styles.form}
-            action={formAction}
           >
             <div className={styles.age}>
               <input
