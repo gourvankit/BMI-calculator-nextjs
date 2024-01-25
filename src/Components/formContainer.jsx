@@ -4,7 +4,7 @@ import Image from "next/image";
 import Chart from "./chart";
 import { useFormState } from "react-dom";
 
-import { changeBmi } from "@/redux/features/bmi-slice";
+import { changeBmi } from "@/app/redux/features/bmi-slice";
 import { useDispatch } from "react-redux";
 import { addData } from "@/app/lib/action";
 const FormContainer = () => {
